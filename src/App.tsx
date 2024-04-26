@@ -1,9 +1,12 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
-const router = createBrowserRouter([]);
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };
 
 export default App;
